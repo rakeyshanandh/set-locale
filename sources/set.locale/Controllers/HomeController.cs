@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+//please tell me the error or changes you need 
+using System.Threading.Tasks;
 using System.Web.Mvc;
 
 using set.locale.Data.Services;
@@ -7,7 +8,7 @@ using set.locale.Models;
 
 namespace set.locale.Controllers
 {
-    public class HomeController : BaseController
+    public class HomeController : BaseController 
     {
         private readonly IUserService _userService;
         private readonly IFeedbackService _feedbackService;
